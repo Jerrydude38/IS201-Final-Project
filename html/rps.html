@@ -133,7 +133,7 @@
             const [a, b, c] = pattern;
             if (board[a] && board[a] === board[b] && board[a] === board[c]) {
                 gameOver = true;
-                status.textContent = `${currentPlayer} wins!`;
+                status.textContent = `${currentPlayer} win!`;
                 status.classList.add('winner');
                 return;
             }
